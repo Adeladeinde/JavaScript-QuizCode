@@ -1,35 +1,87 @@
 # Assignment: JavaScript Web APIs - Code Quiz
 
-# Coding Quiz Challenge
+Edward Apostol, for SkillHat - February 2024
 
-This project is a web-based coding quiz challenge that tests users' knowledge of HTML, CSS, and JavaScript fundamentals. Users can take the quiz, answer multiple-choice questions, and receive a final score based on their performance. The project is built using HTML, CSS, and JavaScript.
+## Your Task
 
-## Features
+At some point in your journey to become a full-stack web developer, you’ll likely be asked to complete a coding assessment&mdash;perhaps as part of an interview process. A typical coding assessment includes both multiple-choice questions and interactive coding challenges. 
 
-- Multiple-choice questions on HTML, CSS, and JavaScript.
-- Timer functionality with penalties for incorrect answers.
-- End-of-quiz screen displaying the final score.
-- Option to submit initials to save high scores.
+To help familiarize you with these tests and allow you to use the skills covered in this module, this Challenge invites you to build a timed coding quiz with multiple-choice questions. This app will run in the browser and will feature dynamically updated HTML and CSS powered by JavaScript code that you write. It will have a clean, polished, and responsive user interface. 
 
-## Getting Started
+This week’s coursework will equip you with all the skills you need to succeed in this assignment.
 
-To run the project locally, follow these steps:
+## User Story
 
-1. Clone this repository to your local machine.
-2. Open the `index.html` file in your web browser.
+```
+AS A coding student
+I WANT to take a timed quiz on JavaScript fundamentals that stores high scores
+SO THAT I can gauge my progress compared to my peers
+```
 
-## Usage
+## Acceptance Criteria
 
-- Click the "Start Quiz" button to begin the quiz.
-- Answer each question by selecting one of the provided choices.
-- If the answer is correct, the feedback will indicate "Correct!" Otherwise, time will be deducted, and the feedback will indicate "Incorrect!"
-- After answering all questions or when the timer reaches zero, the quiz will end, and the final score will be displayed.
-- Enter your initials and click "Submit" to save your high score.
+```
+GIVEN I am taking a code quiz
+WHEN I click the start button
+THEN a timer starts and I am presented with a question
+WHEN I answer a question
+THEN I am presented with another question
+WHEN I answer a question incorrectly
+THEN time is subtracted from the clock
+WHEN all questions are answered or the timer reaches 0
+THEN the game is over
+WHEN the game is over
+THEN I can save my initials and my score
+```
 
+## Mock-Up
 
-![A user clicks through an interactive coding quiz, then enters initials to save the high score before resetting and starting over.](./07-Assignment-WebAPIs-Code_Quiz\assignment-js-webapis\Assets\04-web-apis-homework-demo.gif)
+The following screen shot demonstrates the application functionality - refer to the image "04-web-apis-homework-demo.gif" in the assets folder for a reference; you can open up that image in your web browser.:
 
+![A user clicks through an interactive coding quiz, then enters initials to save the high score before resetting and starting over.](./Assets/04-web-apis-homework-demo.gif)
 
-## License
+## Grading Requirements
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This Challenge is graded based on the following criteria: 
+
+### Technical Acceptance Criteria: 40%
+
+* Satisfies all of the preceding acceptance criteria.
+
+### Deployment: 32%
+
+* Application deployed at live URL.
+
+* Application loads with no errors.
+
+* Application GitHub URL submitted.
+
+* GitHub repository contains application code.
+
+### Application Quality: 15%
+
+* Application user experience is intuitive and easy to navigate.
+
+* Application user interface style is clean and polished.
+
+* Application resembles the mock-up functionality provided in the Challenge instructions.
+
+### Repository Quality: 13%
+
+* Repository has a unique name.
+
+* Repository follows best practices for file structure and naming conventions.
+
+* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
+
+* Repository contains multiple descriptive commit messages.
+
+* Repository contains quality readme file with description, screenshot, and link to deployed application.
+
+## Review
+
+You are required to submit BOTH of the following for review via Google Classroom:
+
+* The URL of the functional, deployed application.
+
+* The URL of the GitHub repository, with a unique name and a readme describing the project.
